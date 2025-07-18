@@ -33,10 +33,18 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
-    !-->
     <types>
         <members>Medical_Inquiry__c.Physician__c</members>
         <name>CustomField</name>
+    </types>
+    !-->
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
     </types>
     <version>61.0</version>
 </Package>
