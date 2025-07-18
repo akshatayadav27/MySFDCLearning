@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Physician Information" icon-name="action:map">
+        <template lwc:if={data}>
+            <div class="slds-p-top_medium slds-p-left_medium"><strong>Name : </strong>{data.accountName}</div>
+            <div class="slds-p-left_medium"><strong>Phone : </strong> {data.accountPhone}</div>
+        </template>       
+        <template lwc:else>
+            <span class="slds-align_absolute-center">
+               Info not Available !!
+            </span>
+          </template>
+      </lightning-card>
+</template>
